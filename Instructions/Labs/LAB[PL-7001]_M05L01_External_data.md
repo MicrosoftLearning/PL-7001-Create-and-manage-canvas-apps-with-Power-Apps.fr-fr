@@ -34,7 +34,9 @@ pour Bookings
 
 ### Tâche 1.1 Créer un site SharePoint
 
-1. Dans le [portail Power Apps Maker](https://make.powerapps.com) sélectionnez le **lanceur d’applications** en haut à gauche de la fenêtre du navigateur, puis sélectionnez **OneDrive**.
+1. Dans le [portail de création Power Apps](https://make.powerapps.com) sélectionnez le **lanceur d’applications** en haut à gauche de la fenêtre du navigateur, puis sélectionnez **SharePoint**.
+
+1. Si la boîte de dialogue contextuelle **Bienvenue dans la page de démarrage de SharePoint** s’affiche, sélectionnez **X** pour fermer la boîte de dialogue.
 
 1. Dans SharePoint, sélectionnez **+Créer un site**.
 
@@ -46,6 +48,8 @@ pour Bookings
 
 1. Sélectionnez **Terminer**.
 
+1. Si la boîte de dialogue contextuelle **Démarrer la conception de votre site** s’affiche, fermez la boîte de dialogue.
+
 ### Tâche 1.2 Créer une liste SharePoint
 
 1. Dans le site SharePoint, sélectionnez **+ Nouveau**, puis **Liste**.
@@ -56,7 +60,7 @@ pour Bookings
 
 1. Entrez `Bookings` comme **Nom**, puis sélectionnez **Créer**.
 
-1. Sélectionnez **Ajouter une colonne**, **Texte**, puis **Suivant**.
+1. Sélectionnez **+ Ajouter une colonne**, **Texte**, puis **Suivant**.
 
 1. Dans le volet **Créer une colonne**, entrez ou sélectionnez les valeurs suivantes :
 
@@ -65,7 +69,7 @@ pour Bookings
 
 1. Sélectionnez **Enregistrer**.
 
-1. Sélectionnez **Ajouter une colonne**, **Texte**, puis **Suivant**.
+1. Sélectionnez **+ Ajouter une colonne**, **Texte**, puis **Suivant**.
 
 1. Dans le volet **Créer une colonne**, entrez ou sélectionnez les valeurs suivantes :
 
@@ -74,18 +78,18 @@ pour Bookings
 
 1. Sélectionnez **Enregistrer**.
 
-1. Sélectionnez **Ajouter une colonne**, **Date et heure**, puis **Suivant**.
+1. Sélectionnez **+ Ajouter une colonne**, sélectionnez **date et heure**, puis **Suivant**.
 
-1. Dans le volet **Créer une colonne**, entrez ou sélectionnez les valeurs suivantes :
+1. Dans le volet **Créer une colonne**, entrez ou sélectionnez les valeurs suivantes :
 
    1. Nom : `Start Date`
    1. Type de données : **Date et heure**
 
 1. Sélectionnez **Enregistrer**.
 
-1. Sélectionnez **Ajouter une colonne**, **Date et heure**, puis **Suivant**.
+1. Sélectionnez **+ Ajouter une colonne**, sélectionnez **date et heure**, puis **Suivant**.
 
-1. Dans le volet **Créer une colonne**, entrez ou sélectionnez les valeurs suivantes :
+1. Dans le volet **Créer une colonne**, entrez ou sélectionnez les valeurs suivantes :
 
    1. Nom : `End Date`
    1. Type de données : **Date et heure**
@@ -142,21 +146,21 @@ pour Bookings
 
 1. Sélectionnez **6 sélectionnés** en regard de **Champs**.
 
-1. Sélectionnez **Décision** comme **Titre**.
+1. Sélectionner **Le nom de l’animal de compagnie** en tant que **Titre**.
 
 1. Sélectionnez **Date de début** comme **Sous-titre**.
 
 1. Fermez le volet Données.
 
-1. Dans le menu de création d’application, sélectionnez **Arborescence**.
+1. Dans le menu création d’application, sélectionner **Arborescence**.
 
 1. Donnez le nom `BookingList` à la galerie.
 
-1. Définissez les propriétés de la galerie comme suit :
+1. Définissez les propriétés de la galerie dans la barre de formule de la façon suivante :
 
-   1. X=`1000`
-   1. Y=`80`
-   1. Hauteur=`575`
+   1. X = `1000`
+   1. Y = `80`
+   1. Hauteur = `575`
    1. Largeur=`250`
 
 ## Exercice 3 : Collections
@@ -169,7 +173,7 @@ pour Bookings
 
 1. Sélectionnez **NextArrow**.
 
-1. Définissez la propriété **OnSelect** de NextArrow sur :
+1. Définissez la propriété **OnSelect** de NextArrow dans la barre de formule sur :
 
     ```powerappsfl
     Collect(colRequests, ThisItem)
@@ -179,7 +183,7 @@ pour Bookings
 
 1. Sélectionnez l’objet **App**.
 
-1. Définissez la propriété **OnStart** de NextArrow sur :
+1. Définissez la propriété **OnStart** dans la barre de formule sur :
 
     ```powerappsfl
     Clear(colRequests)
@@ -205,18 +209,18 @@ pour Bookings
 
     ![Capture d’écran de modification de la galerie.](../media/icon-added-gallery.png)
 
-1. Définissez les propriétés de l’icône comme suit :
+1. Définissez les propriétés de l’icône dans la barre de formule de la façon suivante :
 
-   1. X=`150`
-   1. Y=`40`
-   1. Hauteur=`30`
+   1. X = `150`
+   1. Y = `40`
+   1. Hauteur = `30`
    1. Largeur=`30`
 
 1. Dans le menu de création d’application, sélectionnez **Arborescence**.
 
-1. Renommez l’icône `DeclineIcon`.
+1. Renommez l’icône comme suit : `DeclineIcon`.
 
-1. Définissez la propriété **OnSelect** de **DeclineIcon** sur :
+1. Définissez la propriété **OnSelect** de **DeclineIcon** dans la barre de formule sur :
 
     ```powerappsfl
     Patch('Booking Requests', ThisItem, {Decision: 'Decision (Booking Requests)'.Declined})
@@ -238,7 +242,7 @@ pour Bookings
 
 1. Cliquez en dehors de la galerie sur le canevas vide.
 
-1. Dans le menu de création d’application, sélectionnez **Insérer (+)**.
+1. Dans le menu de création d'application, sélectionnez **Insérer (+)**.
 
 1. Sélectionnez **Libellé de texte**.
 
@@ -248,12 +252,12 @@ pour Bookings
 
 1. Donnez le nom `UserDetailsLabel` au contrôle Libellé de texte.
 
-1. Définissez la propriété **OnSelect** de **UserDetailsLabel** sur :
+1. Définissez la propriété **Text** de **UserDetailsLabel** dans la barre de formule sur :
 
     ```powerappsfl
     Office365Users.MyProfile().Country
     ```
 
-1. Sélectionnez **Enregistrer** en haut à droite de Power Apps Studio.
+1. Sélectionner **Enregistrer** en haut à droite de Power Apps Studio.
 
-1. Sélectionnez le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis **Quitter** pour quitter l’application.
+1. Sélectionner le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis sélectionner **Quitter** pour quitter l’application.

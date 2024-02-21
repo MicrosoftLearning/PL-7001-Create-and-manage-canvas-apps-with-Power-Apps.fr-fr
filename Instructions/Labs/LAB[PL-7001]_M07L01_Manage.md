@@ -96,7 +96,7 @@ Dans ce labo, vous allez gérer votre application canevas.
 
 1. Sélectionnez l’application **Demande de réservation**, sélectionnez les commandes ( **...**), puis choisissez **Modifier > Modifier dans un nouvel onglet**.
 
-1. Cliquez sur l’icône du menu déroulant à côté du bouton **Enregistrer** en haut à droite de Power Apps Studio.
+1. Sélectionnez l’icône de menu déroulant à côté d’**Enregistrer** en haut à droite de Power Apps Studio.
 
 1. Sélectionnez **Télécharger une copie**.
 
