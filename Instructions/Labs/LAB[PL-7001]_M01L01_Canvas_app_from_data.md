@@ -21,7 +21,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
   
 ## Prérequis
 
-- Vous devez avoir effectué le **Labo 0 : Valider l’environnement de labo**
+- Vous devez avoir effectué le **Labo 0 : Valider l’environnement de labo**
 
 ## Procédure détaillée
 
@@ -79,6 +79,8 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
     ![Capture d’écran de l’écran Parcourir dans une application à trois écrans.](../media/three-screen-app-browse-screen.png)
 
+1. Si la boîte de dialogue **Bienvenue dans Power Apps Studio** s’affiche, sélectionnez **Ne plus afficher ce message** et sélectionnez **Ignorer**.
+
 1. Sélectionnez **Enregistrer** en haut à droite de Power Apps Studio, entrez `Coffee Machines App`, puis sélectionnez **Enregistrer**.
 
 ### Tâche 2.2 : Tester l’application
@@ -89,7 +91,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Sélectionnez l’icône **Modifier** en haut à droite de l’application. Cette opération ouvre l’écran Modifier.
 
-1. Modifiez le **Prix de l’ordinateur**, puis sélectionnez l’icône **Envoyer** en haut à droite de l’application.
+1. Modifiez le **Prix de l’ordinateur**, puis sélectionnez l’icône de cycle **Envoyer l’élément** en haut à droite de l’application.
 
 1. Sélectionnez l’icône **<** en haut à gauche de l’application.
 
@@ -101,15 +103,15 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Entrez `999` pour **Prix de l’ordinateur**.
 
-1. Sélectionnez l’icône **Envoyer** en haut à droite de l’application.
+1. Sélectionnez l’icône **Envoyer l’élément** en haut à droite de l’application.
 
 1. Entrez `Demo` dans **Rechercher des éléments**.
 
 1. Sélectionnez **X** dans le coin supérieur droit pour arrêter l’aperçu.
 
-1. Sélectionnez le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis cliquez sur **Quitter** pour quitter l’application.
+1. Si la boîte de dialogue **Le saviez-vous ?** s’affiche, sélectionnez **Ne plus afficher ce message** et sélectionnez **Ok**.
 
-1. Sélectionnez l’onglet **+ Créer** dans le menu de gauche du portail Power Apps Maker.
+1. Sélectionnez le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis cliquez sur **Quitter** pour quitter l’application.
 
 ## Exercice 3 : Créer une application canevas avec Copilot
 
@@ -135,7 +137,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
     ![Capture d’écran de l’application par Copilot.](../media/copilot-app.png)
 
-1. Sélectionnez **Enregistrer** en haut à droite de Power Apps Studio, entrez `Coffee Repair App`, puis sélectionnez **Enregistrer**.
+1. Sélectionner **Enregistrer** en haut à droite de Power Apps Studio.
 
 1. Sélectionnez le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis cliquez sur **Quitter** pour quitter l’application.
 
