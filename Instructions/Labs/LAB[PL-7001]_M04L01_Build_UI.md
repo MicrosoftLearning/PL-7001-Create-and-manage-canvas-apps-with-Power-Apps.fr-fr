@@ -30,9 +30,9 @@ Dans cet atelier, vous allez modifier les couleurs des contrôles dans l'applica
 
 1. Accédez au portail Power Apps Maker <https://make.powerapps.com>.
 
-1. Vérifiez que vous êtes dans l'environnement **Dev One**.
+1. Vérifiez que vous êtes dans l’environnement **Dev One**.
 
-1. Sélectionnez l'onglet **Applications** dans le menu de gauche.
+1. Sélectionnez l’onglet **Applications** dans le menu de gauche.
 
 1. Sélectionnez l'**application Booking Request**, sélectionnez les commandes (**...**), puis **Modifier > Modifier dans un nouvel onglet**.
 
@@ -52,7 +52,7 @@ Dans cet atelier, vous allez modifier les couleurs des contrôles dans l'applica
 
 1. Sélectionnez **NextArrow**.
 
-1. Définissez la propriété **Color** de NextArrow sur :
+1. Définissez la propriété **Color** de NextArrow dans la barre de formule sur :
 
     ```powerappsfl
     RGBA(164, 38, 44, 1)
@@ -60,7 +60,7 @@ Dans cet atelier, vous allez modifier les couleurs des contrôles dans l'applica
 
 1. Sélectionnez **Corps**.
 
-1. Définissez la propriété **Color** de Body sur :
+1. Définissez la propriété **Color** de Body dans la barre de formule sur :
 
     ```powerappsfl
     If(ThisItem.Cost > 1000, RGBA(164, 38, 44, 1), Color.Black)
@@ -84,12 +84,12 @@ Dans cet atelier, vous allez modifier les couleurs des contrôles dans l'applica
 
 1. Donnez le nom `UserLabel` au contrôle Libellé de texte.
 
-1. Définissez les propriétés de l'étiquette comme suit :
+1. Définissez les propriétés de l’étiquette dans la barre de formule de la façon suivante :
 
-   1. X = `1100`
-   1. Y = `20`
-   1. Hauteur = `40`
-   1. Largeur = `250`
+   1. X = `1100`
+   1. Y = `20`
+   1. Hauteur = `40`
+   1. Largeur = `250`
    1. Aligner = `Align.Right`
    1. Taille = `18`
    1. PaddingRight = `10`
@@ -100,4 +100,4 @@ Dans cet atelier, vous allez modifier les couleurs des contrôles dans l'applica
 
 1. Sélectionnez **Enregistrer** dans le coin supérieur droit de Power Apps Studio.
 
-1. Sélectionnez le bouton **<- Précédent** dans le coin supérieur gauche de la barre de commandes, puis sélectionnez **Quitter** pour quitter l'application.
+1. Sélectionner le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis sélectionner **Quitter** pour quitter l’application.
