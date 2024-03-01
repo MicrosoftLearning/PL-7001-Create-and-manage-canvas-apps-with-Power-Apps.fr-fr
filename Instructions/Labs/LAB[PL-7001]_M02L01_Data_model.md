@@ -29,7 +29,7 @@ Dans ce labo, vous allez créer des tables et des colonnes Dataverse.
 
 ### Tâche 1.1 – Créer la table Booking Request (Demande de réservation)
 
-1. Accédez au portail Power Apps Maker <https://make.powerapps.com>.
+1. Accédez au portail de création Power Apps `https://make.powerapps.com`
 
 1. Vérifiez que vous êtes dans l’environnement **Dev One**.
 
@@ -39,7 +39,7 @@ Dans ce labo, vous allez créer des tables et des colonnes Dataverse.
 
     ![Capture d’écran de la création d’une table dans Dataverse.](../media/create-new-table-dataverse.png)
 
-1. Sélectionnez l’icône de **crayon** en regard de Nouvelle table
+1. Sélectionnez l’icône de crayon **Modifier les propriétés de la table** en regard de **Nouvelle table**.
 
     ![Capture d’écran du nom de la nouvelle table.](../media/table-name.png)
 
@@ -145,7 +145,7 @@ Dans ce labo, vous allez créer des tables et des colonnes Dataverse.
 
 ### Tâche 2.1 : Créer une colonne de recherche
 
-1. Accédez au portail Power Apps Maker <https://make.powerapps.com>.
+1. Accédez au portail de création Power Apps `https://make.powerapps.com`
 
 1. Vérifiez que vous êtes dans l’environnement **Dev One**.
 
@@ -209,3 +209,4 @@ Dans ce labo, vous allez créer des tables et des colonnes Dataverse.
    1. Décision : **Declined**
 
 1. Fermez l’onglet Modifier les données.
+
