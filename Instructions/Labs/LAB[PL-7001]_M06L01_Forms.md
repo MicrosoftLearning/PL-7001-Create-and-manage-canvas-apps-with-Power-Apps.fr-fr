@@ -65,9 +65,11 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 ### Étape 1.3 : ajouter la navigation
 
-1. Sélectionnez **NextArrow** dans **BookingRequestList** dans **MainScreen**.
+1. Dans l’**arborescence**, développez **BookingRequestList** dans **MainScreen**.
 
-1. Définissez la propriété **OnSelect** de NextArrow sur :
+1. Sélectionnez **NextArrow** dans **BookingRequestList**.
+
+1. Définissez la propriété **OnSelect** de NextArrow dans la barre de formule sur :
 
     ```powerappsfl
     Collect(colRequests, ThisItem);Navigate(DetailScreen, ScreenTransition.Cover);
@@ -90,6 +92,8 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 1. Dans l’**arborescence**, sélectionnez l’icône, puis les commandes (**...**) et choisissez **Copier**.
 
 1. Développez **DetailScreen**.
+
+1. Développez **ScreenContainer**.
 
 1. Sélectionnez **HeaderContainer**, puis les commandes (**...**) et **collez**.
 
@@ -148,7 +152,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. **Fermez** le volet **Champs**.
 
-1. Définissez la propriété **Élément** du contrôle de visionneuse de formulaire sur :
+1. Définissez la propriété **Élément** du contrôle de visionneuse de formulaire dans la barre de formule sur :
 
     ```powerappsfl
     BookingRequestList.Selected
@@ -266,7 +270,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
     ![Capture d’écran du formulaire de demande de réservation configuré.](../media/bookingrequestform.png)
 
-### Tâche 3.2 : ajouter un bouton Envoyer
+### Tâche 3.2 : ajouter un bouton Soumettre
 
 1. Dans le menu création d’application, sélectionnez **Arborescence**.
 
@@ -360,4 +364,4 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Sélectionnez **Enregistrer** en haut à droite de Power Apps Studio.
 
-1. Sélectionnez le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis cliquez sur **Quitter** pour quitter l’application.
+1. Sélectionner le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis sélectionner **Quitter** pour quitter l’application.

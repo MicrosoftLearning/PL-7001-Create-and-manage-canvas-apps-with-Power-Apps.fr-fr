@@ -41,7 +41,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
     ![Capture d’écran de l’icône OneDrive.](../media/select-onedrive.png)
 
-1. Sélectionnez **Votre OneDrive est prêt**.
+1. Si une fenêtre contextuelle s’affiche, sélectionnez **Votre OneDrive est prêt**.
 
 1. Sélectionnez **+ Ajouter nouveau**, puis sélectionnez **Chargement de fichiers**
 
@@ -50,6 +50,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 1. Accédez aux téléchargements et sélectionnez le fichier CoffeeMachineData.xlsx, puis sélectionnez **Ouvrir**.
 
 1. Sélectionnez **Mes fichiers** et vérifiez que CoffeeMachineData.xlsx a bien été chargé.
+
 
 ## Exercice 2 : Créer une application canevas à trois écrans
 
@@ -75,13 +76,14 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Sélectionnez **Se connecter**.
 
+1. Si la boîte de dialogue contextuelle **Bienvenue dans Power Apps Studio** s’affiche, sélectionnez **Ne plus afficher ce message**, puis **Ignorer**.
+
 1. Attendez que l’application soit générée.
 
     ![Capture d’écran de l’écran Parcourir dans une application à trois écrans.](../media/three-screen-app-browse-screen.png)
 
-1. Si la boîte de dialogue **Bienvenue dans Power Apps Studio** s’affiche, sélectionnez **Ne plus afficher ce message** et sélectionnez **Ignorer**.
-
 1. Sélectionnez **Enregistrer** en haut à droite de Power Apps Studio, entrez `Coffee Machines App`, puis sélectionnez **Enregistrer**.
+
 
 ### Tâche 2.2 : Tester l’application
 
@@ -109,21 +111,22 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Sélectionnez **X** dans le coin supérieur droit pour arrêter l’aperçu.
 
-1. Si la boîte de dialogue **Le saviez-vous ?** s’affiche, sélectionnez **Ne plus afficher ce message** et sélectionnez **Ok**.
+1. Si la boîte de dialogue contextuelle **Le saviez-vous ?** s’affiche, sélectionnez **Ne plus afficher ce message**, puis **OK**.
 
 1. Sélectionnez le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis cliquez sur **Quitter** pour quitter l’application.
+
 
 ## Exercice 3 : Créer une application canevas avec Copilot
 
 ### Tâche 3.1 : Créer l’application
 
-1. Accédez au portail Power Apps Maker <https://make.powerapps.com>.
+1. Accédez au portail de création Power Apps `https://make.powerapps.com`
 
 1. Vérifiez que vous êtes dans l’environnement **Dev One**.
 
-1. Sélectionnez l’onglet **Accueil** dans le menu de gauche.
+1. Sélectionnez l’onglet **Accueil** dans le menu de navigation de gauche.
 
-1. Sous **Créons une application. Que doit-elle faire ?** entrez `Track coffee machine repairs for customers and assign repairs to technicians` et sélectionnez l’icône de flèche.
+1. Sous **Créons une application. Que doit-elle faire ?** Entrez `Track coffee machine repairs for customers and assign repairs to technicians`, puis sélectionnez l’icône de flèche **OK** pour envoyer.
 
     ![Capture d’écran de l’invite Copilot.](../media/copilot-prompt.png)
 

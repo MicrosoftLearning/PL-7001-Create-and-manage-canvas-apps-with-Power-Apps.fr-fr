@@ -11,7 +11,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 ## Contenu du didacticiel
 
 - Comment créer une application canevas avec une galerie liée à une source de données
-- Comment mettre en forme des champs avec la formule Power Fx
+- Comment mettre en forme des champs avec des formules Power Fx
 
 ## Étapes de labo de haut niveau
 
@@ -70,7 +70,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Dans le menu création d’application, sélectionner **Arborescence**.
 
-1. Sélectionner **Écran1** dans l’arborescence, puis sélectionner les points de suspension (**...**) et sélectionner **Renommer**.
+1. Sélectionnez **Screen1** dans l’arborescence, sélectionnez les points de suspension (**...**), puis sélectionnez **Renommer**.
 
 1. Saisissez `MainScreen`.
 
@@ -84,7 +84,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Renommez le rectangle par `HeaderRect`.
 
-1. Définir les propriétés de l’icône comme suit :
+1. Définissez les propriétés du rectangle dans la barre de formule de la façon suivante :
 
    1. X = `0`
    1. Y = `0`
@@ -101,7 +101,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Donnez le nom `HeaderLabel` au contrôle Libellé de texte.
 
-1. Définissez les propriétés de l'étiquette comme suit :
+1. Définissez les propriétés de l’étiquette dans la barre de formule de la façon suivante :
 
    1. X = `0`
    1. Y = `0`
@@ -124,7 +124,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
     ![Capture d’écran de l’ajout d’une galerie.](../media/add-gallery.png)
 
-1. Sélectionner **Requêtes de réservation**.
+1. Sélectionnez **Booking Requests** comme source de données.
 
     ![Capture d’écran des propriétés de la galerie.](../media/gallery-properties.png)
 
@@ -146,7 +146,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Donnez le nom `BookingRequestList` à la galerie.
 
-1. Définissez les propriétés de la galerie comme suit :
+1. Définissez les propriétés de la galerie dans la barre de formule de la façon suivante :
 
    1. X = `0`
    1. Y = `80`
@@ -163,7 +163,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
     ![Capture d’écran du champ de corps sélectionné.](../media/body.png)
 
-1. Définir la propriété **Texte** sur la formule suivante :
+1. Définissez la propriété **Text** dans la barre de formule sur la formule :
 
     ```powerappsfl
     Text(Value(ThisItem.Cost), "$#,##0.00")
