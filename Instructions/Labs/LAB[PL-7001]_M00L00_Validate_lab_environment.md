@@ -28,11 +28,11 @@ Dans cet exercice, vous vérifiez que vous pouvez accéder à Power Apps.
 
 1. Cliquez sur **Connexion**.
 
-1. Entrez l’`email address` fournie par l’hôte de labo autorisé.
+1. Entrez l’adresse e-mail fournie par l’hôte de labo autorisé.
 
 1. Cliquez sur **Suivant**.
 
-1. Entrez le `password` fourni par l’hôte de labo autorisé.
+1. Entrez le mot de passe fourni par l’hôte de labo autorisé.
 
 1. Cliquez sur **Connexion**.
 

@@ -34,9 +34,9 @@ pour Bookings
 
 ### Tâche 1.1 Créer un site SharePoint
 
-1. Dans le [portail de création Power Apps](https://make.powerapps.com) sélectionnez le **lanceur d’applications** en haut à gauche de la fenêtre du navigateur, puis sélectionnez **SharePoint**.
+1. Dans le portail Power Apps Maker, `https://make.powerapps.com` sélectionnez le **Lanceur d’applications** en haut à gauche de la fenêtre du navigateur, puis sélectionnez **SharePoint**.
 
-1. Si la boîte de dialogue contextuelle **Bienvenue dans la page de démarrage de SharePoint** s’affiche, sélectionnez **X** pour fermer la boîte de dialogue.
+1. Si la boîte de dialogue contextuelle **Bienvenue dans la page de démarrage de SharePoint** s’affiche, sélectionnez **✖** pour fermer la boîte de dialogue.
 
 1. Dans SharePoint, sélectionnez **+Créer un site**.
 
@@ -49,6 +49,7 @@ pour Bookings
 1. Sélectionnez **Terminer**.
 
 1. Si la boîte de dialogue contextuelle **Démarrer la conception de votre site** s’affiche, fermez la boîte de dialogue.
+
 
 ### Tâche 1.2 Créer une liste SharePoint
 
@@ -98,17 +99,19 @@ pour Bookings
 
 1. Copiez la première partie de l’URL du site SharePoint, par exemple `https://m365x99999999.sharepoint.com/sites/Petboarding/`
 
+
 ## Exercice 2 : Ajouter une liste SharePoint à l’application canevas
 
 ### Tâche 2.1 : Modifier l’application
 
-1. Accédez au portail Power Apps Maker <https://make.powerapps.com>.
+1. Accédez au portail de création Power Apps `https://make.powerapps.com`
 
 1. Vérifiez que vous êtes dans l’environnement **Dev One**.
 
-1. Sélectionnez l’onglet **Applications** dans le menu de gauche.
+1. Sélectionnez l’onglet **Applications** dans le menu de navigation de gauche.
 
 1. Sélectionnez l’**application Booking Request**, sélectionnez les commandes (**...**), puis **Modifier > Modifier dans un nouvel onglet**.
+
 
 ### Tâche 2.2 : Ajouter SharePoint comme source de données
 
@@ -146,17 +149,17 @@ pour Bookings
 
 1. Sélectionnez **6 sélectionnés** en regard de **Champs**.
 
-1. Sélectionner **Le nom de l’animal de compagnie** en tant que **Titre**.
+1. Sélectionnez **Nom de l’animal de compagnie** pour **Titre3**.
 
-1. Sélectionnez **Date de début** comme **Sous-titre**.
+1. Sélectionnez **Date de début** comme **Sous-titre3**.
 
-1. Fermez le volet Données.
+1. Fermez le volet **Données**.
 
 1. Dans le menu création d’application, sélectionner **Arborescence**.
 
 1. Donnez le nom `BookingList` à la galerie.
 
-1. Définissez les propriétés de la galerie dans la barre de formule de la façon suivante :
+1. Définissez les propriétés de la galerie dans la barre de formule de la façon suivante :
 
    1. X = `1000`
    1. Y = `80`
@@ -207,16 +210,16 @@ pour Bookings
 
 1. Sélectionnez **Bloqué**. L’icône est ajoutée à chaque ligne de la galerie.
 
-    ![Capture d’écran de modification de la galerie.](../media/icon-added-gallery.png)
-
 1. Définissez les propriétés de l’icône dans la barre de formule de la façon suivante :
 
    1. X = `150`
    1. Y = `40`
    1. Hauteur = `30`
-   1. Largeur=`30`
+   1. Largeur = `30`
 
-1. Dans le menu de création d’application, sélectionnez **Arborescence**.
+    ![Capture d’écran de modification de la galerie.](../media/icon-added-gallery.png)
+
+1. Dans le menu création d’application, sélectionnez **Arborescence**.
 
 1. Renommez l’icône comme suit : `DeclineIcon`.
 
@@ -238,11 +241,12 @@ pour Bookings
 
 1. Sélectionnez **Se connecter**.
 
+
 ### Tâche 5.2 Afficher le pays de l’utilisateur
 
-1. Cliquez en dehors de la galerie sur le canevas vide.
+1. Sélectionnez un emplacement en dehors de la galerie sur le canevas vide ou sélectionnez **MainScreen** sur l’**Arborescence**.
 
-1. Dans le menu de création d'application, sélectionnez **Insérer (+)**.
+1. Dans le menu de création d’application, sélectionner **Insérer (+)**.
 
 1. Sélectionnez **Libellé de texte**.
 
@@ -258,6 +262,14 @@ pour Bookings
     Office365Users.MyProfile().Country
     ```
 
+1. Définissez les propriétés de l’étiquette dans la barre de formule de la façon suivante :
+
+   1. X = `930`
+   1. Y = `20`
+   1. Taille = `18`
+   1. Couleur = `Color.White`
+
 1. Sélectionner **Enregistrer** en haut à droite de Power Apps Studio.
 
 1. Sélectionner le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis sélectionner **Quitter** pour quitter l’application.
+

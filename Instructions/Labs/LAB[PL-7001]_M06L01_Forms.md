@@ -37,13 +37,14 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 ### Tâche 1.1 : modifier l’application
 
-1. Accédez au portail Power Apps Maker <https://make.powerapps.com>.
+1. Accédez au portail de création Power Apps `https://make.powerapps.com`
 
 1. Vérifiez que vous êtes dans l’environnement **Dev One**.
 
-1. Sélectionnez l’onglet **Applications** dans le menu de gauche.
+1. Sélectionnez l’onglet **Applications** dans le menu de navigation de gauche.
 
 1. Sélectionnez l’application **Demande de réservation**, sélectionnez les commandes ( **...**), puis choisissez **Modifier > Modifier dans un nouvel onglet**.
+
 
 ### Tâche 1.2 : ajouter des écrans
 
@@ -62,6 +63,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 1. Sélectionnez **En-tête et pied de page**.
 
 1. Redéfinissez le nom de l’écran sur `DetailScreen`.
+
 
 ### Étape 1.3 : ajouter la navigation
 
@@ -96,6 +98,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 1. Développez **ScreenContainer**.
 
 1. Sélectionnez **HeaderContainer**, puis les commandes (**...**) et **collez**.
+
 
 ## Exercice 2 : écran Détails
 
@@ -270,6 +273,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
     ![Capture d’écran du formulaire de demande de réservation configuré.](../media/bookingrequestform.png)
 
+
 ### Tâche 3.2 : ajouter un bouton Soumettre
 
 1. Dans le menu création d’application, sélectionnez **Arborescence**.
@@ -365,3 +369,4 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 1. Sélectionnez **Enregistrer** en haut à droite de Power Apps Studio.
 
 1. Sélectionner le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis sélectionner **Quitter** pour quitter l’application.
+
