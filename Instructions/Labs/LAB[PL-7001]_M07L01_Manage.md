@@ -32,11 +32,11 @@ Dans ce labo, vous allez gérer votre application canevas.
 
 ### Tâche 1.1 : partager l’application Demande de réservation
 
-1. Accédez au portail Power Apps Maker <https://make.powerapps.com>.
+1. Accédez au portail de création Power Apps `https://make.powerapps.com`
 
 1. Vérifiez que vous êtes dans l’environnement **Dev One**.
 
-1. Sélectionnez l’onglet **Applications** dans le menu de gauche.
+1. Sélectionnez l’onglet **Applications** dans le menu de navigation de gauche.
 
 1. Sélectionnez l’application **Demande de réservation**, sélectionnez les commandes (**...**), puis choisissez **Partager**.
 
@@ -49,6 +49,7 @@ Dans ce labo, vous allez gérer votre application canevas.
 1. Sélectionnez **Partager**.
 
 1. **Fermez** le volet Partager l’application.
+
 
 ### Tâche 1.2 : publier l’application Demande de réservation
 
@@ -66,33 +67,35 @@ Dans ce labo, vous allez gérer votre application canevas.
 
 1. Sélectionnez à nouveau **Publier cette version**.
 
+
 ## Exercice 2 : exporter
 
 ### Tâche 2.1 : exporter l’application Demande de réservation
 
-1. Accédez au portail Power Apps Maker <https://make.powerapps.com>.
+1. Accédez au portail de création Power Apps `https://make.powerapps.com`
 
 1. Vérifiez que vous êtes dans l’environnement **Dev One**.
 
-1. Sélectionnez l’onglet **Applications** dans le menu de gauche.
+1. Sélectionnez l’onglet **Applications** dans le menu de navigation de gauche.
 
 1. Sélectionnez l’application **Demande de réservation**, sélectionnez les commandes (**...**), puis choisissez **Exporter le package**.
 
-    ![Capture d’écran de la page d’exportation de l’application.](../media/export-package.png)
-
-1. Entrez `Booking Request app` pour le nom
+1. Entrez `Booking Request app` pour **Nom**.
 
 1. Sélectionnez **Mettre à jour** sous **IMPORTER LA CONFIGURATION**.
 
 1. Sélectionnez **Créer en tant que nouveau**, puis **Enregistrer**.
 
+    ![Capture d’écran de la page d’exportation de l’application.](../media/export-package.png)
+
 1. Sélectionnez **Exporter**.
 
-1. Attendez que le package soit créé et téléchargé. Cette action crée un fichier zip dans votre dossier Téléchargements.
+1. Attendez que le package soit créé et téléchargé. Cette action crée un fichier zip dans votre dossier **Téléchargements**.
+
 
 ### Tâche 2.2 : enregistrer l’application localement
 
-1. Sélectionnez l’onglet **Applications** dans le menu de gauche.
+1. Sélectionnez l’onglet **Applications** dans le menu de navigation de gauche.
 
 1. Sélectionnez l’application **Demande de réservation**, sélectionnez les commandes ( **...**), puis choisissez **Modifier > Modifier dans un nouvel onglet**.
 
@@ -100,6 +103,7 @@ Dans ce labo, vous allez gérer votre application canevas.
 
 1. Sélectionnez **Télécharger une copie**.
 
-1. Sélectionnez **Télécharger**.  Cette action crée un fichier msapp dans votre dossier Téléchargements.
+1. Sélectionnez **Télécharger**.  Cette action crée un fichier .msapp dans votre dossier **Téléchargements**.
 
-1. Sélectionnez le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis cliquez sur **Quitter** pour quitter l’application.
+1. Sélectionner le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis sélectionner **Quitter** pour quitter l’application.
+

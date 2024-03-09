@@ -48,9 +48,9 @@ Dans cet atelier, vous allez modifier les couleurs des contrôles dans l'applica
 
 1. Dans le menu de création d'application, sélectionnez **Arborescence**.
 
-1. Développez la galerie.
+1. Développez la galerie **BookingRequestList**.
 
-1. Sélectionnez **NextArrow**.
+1. Sélectionnez **NextArrow2**.
 
 1. Définissez la propriété **Color** de NextArrow dans la barre de formule sur :
 
@@ -58,7 +58,7 @@ Dans cet atelier, vous allez modifier les couleurs des contrôles dans l'applica
     RGBA(164, 38, 44, 1)
     ```
 
-1. Sélectionnez **Corps**.
+1. Sélectionnez **Body1**.
 
 1. Définissez la propriété **Color** de Body dans la barre de formule sur :
 
@@ -68,13 +68,14 @@ Dans cet atelier, vous allez modifier les couleurs des contrôles dans l'applica
 
 1. Sélectionnez **Enregistrer** dans le coin supérieur droit de Power Apps Studio.
 
+
 ## Exercice 2 : Personnalisation
 
 ### Tâche 2.1 : Ajouter une étiquette utilisateur
 
-1. Cliquez en dehors de la galerie sur le canevas vide.
+1. Sélectionnez un emplacement en dehors de la galerie sur le canevas vide ou sélectionnez **MainScreen**.
 
-1. Dans le menu de création d'application, sélectionnez **Insérer (+)**.
+1. Dans le menu de création d’application, sélectionner **Insérer (+)**.
 
 1. Sélectionnez **Libellé de texte**.
 
