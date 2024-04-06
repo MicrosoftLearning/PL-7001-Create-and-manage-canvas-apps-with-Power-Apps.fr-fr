@@ -18,7 +18,7 @@ Les liens hypertexte vers chaque exercice et démonstration de labo sont répert
 
 ## Démonstrations
 
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
+{% assign demos = site.pages | where_exp:"page", "page.url contains ’/Instructions/Demos’" %}
 | Module | Démonstration |
 | --- | --- | 
 {% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
