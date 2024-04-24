@@ -108,9 +108,9 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Développez **DetailScreen**.
 
-1. Développez **ScreenContainer**.
+1. Développez **ScreenContainer1**.
 
-1. Sélectionnez **MainContainer**.
+1. Sélectionnez **MainContainer1**.
 
 1. Dans le menu de création d’application, sélectionnez **Insérer (+)**.
 
@@ -167,9 +167,9 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Développez **DetailScreen**.
 
-1. Développez **ScreenContainer**.
+1. Développez **ScreenContainer1**.
 
-1. Sélectionnez **FooterContainer**.
+1. Sélectionnez **FooterContainer1**.
 
 1. Sélectionnez **+** dans le conteneur Pied de page.
 
@@ -189,9 +189,9 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Développez **DetailScreen**.
 
-1. Développez **ScreenContainer**.
+1. Développez **ScreenContainer1**.
 
-1. Sélectionnez **FooterContainer**.
+1. Sélectionnez **FooterContainer1**.
 
 1. Dans le menu de création d’application, sélectionnez **Insérer (+)**.
 
@@ -304,7 +304,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Sélectionnez **BookingRequestForm**.
 
-1. Définissez la propriété **OnSuccess** du bouton sur :
+1. Définissez la propriété **OnSuccess** du formulaire sur :
 
     ```powerappsfl
     Navigate(MainScreen, ScreenTransition.UnCover)
