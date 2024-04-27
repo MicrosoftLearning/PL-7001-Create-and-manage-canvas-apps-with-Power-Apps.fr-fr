@@ -188,7 +188,7 @@ Dans ce labo, vous allez créer des tables et des colonnes Dataverse.
    1. Cost : `1,000`
    1. Décision : **Accepted**
 
-1. Sélectionnez **Insérer une ligne ci-dessous**, puis entrez ou sélectionnez les valeurs suivantes :
+1. Sélectionnez **Insérer une ligne ci-dessous**, puis entrez ou sélectionnez les valeurs suivantes :
 
    1. Pet Name : `Tom`
    1. Nom du propriétaire : `MOD Administrator`
@@ -198,7 +198,7 @@ Dans ce labo, vous allez créer des tables et des colonnes Dataverse.
    1. Cost : `1,500`
    1. Décision : **Undecided**
 
-1. Sélectionnez **Insérer une ligne ci-dessous**, puis entrez ou sélectionnez les valeurs suivantes :
+1. Sélectionnez **Insérer une ligne ci-dessous**, puis entrez ou sélectionnez les valeurs suivantes :
 
    1. Pet Name : `Jim`
    1. Nom du propriétaire : `MOD Administrator`
