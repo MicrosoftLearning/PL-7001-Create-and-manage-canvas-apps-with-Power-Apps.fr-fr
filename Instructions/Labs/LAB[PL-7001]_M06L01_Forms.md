@@ -122,21 +122,16 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Dans les propriétés de FormViewer, sélectionnez **Demandes de réservation** pour**Source de données**.
 
-1. Choisissez **2 sélectionnés** en regard de **Champs**.
+1. Choisissez **8 sélectionnés** en regard de **Champs**.
 
     ![Capture d’écran des champs de formulaire par défaut.](../media/add-fields-default.png)
 
-1. Supprimez **Créé le** en sélectionnant les points de suspension (**...**) en regard du champ et en sélectionnant **Supprimer**.
+1. Supprimez les champs **État** et **Notes** en sélectionnant les points de suspension (**...**) en regard de ces champs et en sélectionnant **Supprimer**.
 
-1. Cliquez sur **+Ajouter un champ** et sélectionnez les champs suivants :
+1. Cliquez sur **+Ajouter un champ** et sélectionnez le champ suivant :
 
-   1. Coûts
    1. Décision
-   1. Date de fin
-   1. Adresse e-mail du propriétaire
-   1. Nom du propriétaire
-   1. Date de début
-
+   
     ![Capture d’écran de l’ajout de champs au formulaire.](../media/add-fields.png)
 
 1. Sélectionnez **Ajouter**.
@@ -227,19 +222,9 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Dans les propriétés du formulaire, sélectionnez **Demandes de réservation** pour la **source de données**.
 
-1. Choisissez **2 sélectionnés** en regard de **Champs**.
+1. Choisissez **8 sélectionnés** en regard de **Champs**.
 
-1. Supprimez **Créé le** en sélectionnant les points de suspension (**...**) en regard du champ et en sélectionnant **Supprimer**.
-
-1. Cliquez sur **+Ajouter un champ** et sélectionnez les champs suivants :
-
-   1. Coûts
-   1. Date de fin
-   1. Adresse e-mail du propriétaire
-   1. Nom du propriétaire
-   1. Date de début
-
-1. Sélectionnez **Ajouter**.
+1. Supprimez **Décision** et **Notes** en sélectionnant les points de suspension (**...**) en regard de ces champs et en sélectionnant **Supprimer**.
 
 1. Faites glisser les champs dans l’ordre suivant :
 

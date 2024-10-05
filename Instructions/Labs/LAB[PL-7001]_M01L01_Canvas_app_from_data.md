@@ -126,15 +126,22 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Sélectionnez l’onglet **Accueil** dans le menu de navigation de gauche.
 
-1. Sous **Créons une application. Que doit-elle faire ?** Entrez `Track coffee machine repairs for customers and assign repairs to technicians`, puis sélectionnez l’icône de flèche **OK** pour envoyer.
+1. Sous **Créons une application. Que doit-elle faire ?** Entrez `Assign coffee repairs to technicians per customer request`, puis sélectionnez l’icône de flèche **OK** pour envoyer.
 
     ![Capture d’écran de l’invite Copilot.](../media/copilot-prompt.png)
 
+    Copilot va commencer à créer une structure de tables pour servir de base à votre application.
+
+    > **IMPORTANT :** Lors de l’utilisation de l’IA générative, vous n’obtiendrez pas toujours exactement les mêmes résultats. Il est possible que votre table ne corresponde pas exactement à la table créée pour un autre étudiant. 
+
+    > Pour afficher la structure de la table, sélectionnez la table, puis cliquez sur le bouton **Afficher les données**. 
 1. Consultez le tableau
 
     ![Capture d’écran du tableau Copilot.](../media/copilot-table.png)
 
-1. Sélectionnez **Créer une application**
+1. Une fois que vous êtes satisfait de votre table, sélectionnez le bouton **Enregistrer et ouvrir l’application**. 
+
+1. Si nécessaire, sur l’écran **Terminé ?**, sélectionnez **Ne plus me demander**, puis sélectionnez le bouton **Enregistrer et ouvrir l’application**. 
 
 1. Attendez que l’application soit générée.
 
