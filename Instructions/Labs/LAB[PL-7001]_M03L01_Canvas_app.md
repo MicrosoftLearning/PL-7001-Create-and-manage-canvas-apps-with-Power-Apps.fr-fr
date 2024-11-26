@@ -105,7 +105,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Définissez les propriétés de l’étiquette dans la barre de formule de la façon suivante :
 
-   1. X = `0`
+   1. X = `0`
    1. Y = `0`
    1. Hauteur = `80`
    1. Largeur = `Parent.Width`

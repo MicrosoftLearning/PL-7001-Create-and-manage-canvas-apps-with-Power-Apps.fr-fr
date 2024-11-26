@@ -6,9 +6,9 @@
 
 - Pour assurer le support de ces cours, nous devrons effectuer des mises à jour fréquentes du contenu de la formation pour maintenir à jour les services Power Platform qui y sont utilisés.  Nous publions les instructions et les fichiers des ateliers sur GitHub pour permettre des contributions ouvertes entre les auteurs du cours et les MCT afin de maintenir le contenu à jour avec les modifications apportées à la Power Platform.
 
-- Nous espérons que vous aurez ainsi un sentiment de collaboration aux ateliers comme vous ne l'avez jamais ressenti. Si Power Platform change et que vous le découvrez lorsque vous effectuez un atelier en direct, apportez une amélioration directement dans la source de l'atelier. Aidez vos collègues MCT.
+- Nous espérons que vous aurez ainsi un sentiment de collaboration aux ateliers comme vous ne l'avez jamais ressenti. Si Power Platform change et que vous le découvrez lorsque vous effectuez un atelier en direct, apportez une amélioration directement dans la source de l'atelier. Aidez vos collègues MCT.
 
-## Comment dois-je utiliser ces fichiers par rapport aux fichiers publiés de la formation dispensée par un formateur Microsoft Learn ?
+## Comment dois-je utiliser ces fichiers par rapport aux fichiers publiés de la formation dispensée par un formateur Microsoft Learn ?
 
 - Le guide de préparation du formateur et le jeu de diapositives PowerPoint restent votre principale source d'enseignement du contenu du cours.
 
@@ -18,13 +18,13 @@
 
 ## Qu'en est-il des modifications apportées au contenu du cours ?
 
-- Le contenu du cours est sur Microsoft Learn et peut être mis à jour en dehors de la planification de publication du cours.
+- Le contenu des cours est sur Microsoft Learn et peut être mis à jour en dehors de la planification de publication du cours.
 
 ## Comment puis-je contribuer ?
 
 - L’instructeur MCT peut soumettre une demande de tirage (pull request) au code ou au contenu dans GitHub. Microsoft et l’auteur du cours trieront et incluront alors le contenu et les modifications du code de labo en fonction des besoins.
 
-- Vous pouvez soumettre des bogues, des changements, des améliorations et des idées. Avez-vous découvert une nouvelle fonctionnalité avant nous ? Envoyez une nouvelle démonstration !
+- Vous pouvez soumettre des bogues, des changements, des améliorations et des idées. Vous avez découvert une nouvelle fonctionnalité avant nous ? Envoyez une nouvelle démonstration !
 
 ## Notes
 
