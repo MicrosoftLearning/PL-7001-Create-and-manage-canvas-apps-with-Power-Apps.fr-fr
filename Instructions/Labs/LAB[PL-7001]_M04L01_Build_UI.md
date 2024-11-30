@@ -87,7 +87,7 @@ Dans cet atelier, vous allez modifier les couleurs des contrôles dans l'applica
 
 1. Définissez les propriétés de l’étiquette dans la barre de formule de la façon suivante :
 
-   1. X = `1100`
+   1. X = `1100`
    1. Y = `20`
    1. Hauteur = `40`
    1. Largeur = `250`
