@@ -124,7 +124,10 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Vérifiez que vous êtes dans l’environnement **Dev One**.
 
-1. Sélectionnez l’onglet **Accueil** dans le menu de navigation de gauche.
+1. Sélectionnez l’onglet **Accueil** dans le menu de navigation de gauche. 
+
+   > Si le bouton bascule **Essayer la nouvelle expérience Power Apps** est activé, désactivez-le pour que ce labo fonctionne correctement.
+   > Nous lancerons bientôt de nouveaux labos avec l’expérience mise à jour.
 
 1. Sous **Créons une application. Que doit-elle faire ?** Entrez `Assign coffee repairs to technicians per customer request`, puis sélectionnez l’icône de flèche **OK** pour envoyer.
 
