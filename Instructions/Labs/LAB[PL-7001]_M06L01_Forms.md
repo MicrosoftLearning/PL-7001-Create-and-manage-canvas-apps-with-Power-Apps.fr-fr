@@ -126,17 +126,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
     ![Capture d’écran des champs de formulaire par défaut.](../media/add-fields-default.png)
 
-1. Supprimez les champs **État** et **Notes** en sélectionnant les points de suspension (**...**) en regard de ces champs et en sélectionnant **Supprimer**.
-
-1. Cliquez sur **+Ajouter un champ** et sélectionnez le champ suivant :
-
-   1. Décision
-   
-    ![Capture d’écran de l’ajout de champs au formulaire.](../media/add-fields.png)
-
-1. Sélectionnez **Ajouter**.
-
-1. Faites glisser les champs dans l’ordre suivant :
+1. Ajoutez ou supprimez les champs afin qu’ils soient organisés dans l’ordre suivant :
 
    1. Nom de l’animal
    1. Nom du propriétaire
@@ -224,9 +214,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Choisissez **8 sélectionnés** en regard de **Champs**.
 
-1. Supprimez **Décision** et **Notes** en sélectionnant les points de suspension (**...**) en regard de ces champs et en sélectionnant **Supprimer**.
-
-1. Faites glisser les champs dans l’ordre suivant :
+1. Ajoutez ou supprimez les champs afin qu’ils soient organisés dans l’ordre suivant :
 
    1. Nom de l’animal
    1. Nom du propriétaire
