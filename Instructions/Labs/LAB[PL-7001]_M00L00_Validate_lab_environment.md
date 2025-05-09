@@ -38,8 +38,22 @@ Dans cet exercice, vous vérifiez que vous pouvez accéder à Power Apps.
 
 1. Vous pouvez également sélectionner **Oui** pour rester connecté.
 
+1. Si vous êtes invité à vous **connecter à Microsoft Edge**, sélectionnez **Non, merci**.
+
 1. Si vous êtes invité à entrer des informations de contact, laissez le pays ou la région comme valeur par défaut, et entrez `0123456789` pour le numéro de téléphone, puis sélectionnez **Envoyer**.
 
 1. En haut à droite de l’écran, vérifiez que l’**Environnement** est défini sur **Dev One**. C’est là que vous travaillez pendant toute la durée de ce labo. Si ce n’est pas le cas, sélectionnez l’environnement **Dev One**.
 
     ![Sélecteur d’environnement.](../media/select-dev-one-environment.png)
+
+1. Fermez le volet **Sélectionner un environnement**.
+
+### Tâche 1.2 – Mettre à jour le navigateur
+
+L’application des dernières mises à jour du navigateur empêche les problèmes dans le labo suivant lors de la création d’applications.
+
+1. Ouvrez le navigateur **Microsoft Edge**.
+
+1. Sélectionnez les **commandes (...)** en haut à droite du navigateur. Sélectionnez **Aide et commentaires**, puis sélectionnez **À propos de Microsoft Edge**.
+
+1. Appliquez les mises à jour et redémarrez le navigateur si nécessaire.
