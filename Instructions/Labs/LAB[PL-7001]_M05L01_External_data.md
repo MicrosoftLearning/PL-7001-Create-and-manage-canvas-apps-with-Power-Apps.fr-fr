@@ -50,14 +50,13 @@ pour Bookings
 
 1. Si la boîte de dialogue contextuelle **Démarrer la conception de votre site** s’affiche, fermez la boîte de dialogue.
 
-
 ### Tâche 1.2 Créer une liste SharePoint
 
 1. Dans le site SharePoint, sélectionnez **+ Nouveau**, puis **Liste**.
 
     ![Capture d’écran de la nouvelle liste SharePoint.](../media/new-sharepoint-list.png)
 
-1. Sélectionnez **Liste vide**.
+1. Sélectionnez **Liste** sous **Créer à partir d’un champ vide**.
 
 1. Entrez `Bookings` comme **Nom**, puis sélectionnez **Créer**.
 
@@ -99,7 +98,6 @@ pour Bookings
 
 1. Copiez la première partie de l’URL du site SharePoint, par exemple `https://m365x99999999.sharepoint.com/sites/Petboarding/`
 
-
 ## Exercice 2 : Ajouter une liste SharePoint à l’application canevas
 
 ### Tâche 2.1 : Modifier l’application
@@ -111,7 +109,6 @@ pour Bookings
 1. Sélectionnez l’onglet **Applications** dans le menu de navigation de gauche.
 
 1. Sélectionnez l’**application Booking Request**, sélectionnez les commandes (**...**), puis **Modifier > Modifier dans un nouvel onglet**.
-
 
 ### Tâche 2.2 : Ajouter SharePoint comme source de données
 

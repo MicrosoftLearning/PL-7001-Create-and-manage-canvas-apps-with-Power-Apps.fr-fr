@@ -36,24 +36,13 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Sélectionnez l’onglet **+ Créer** dans le menu de navigation de gauche.
 
-1. Sélectionner la **vignette de l’application vide** sous **Démarrer depuis**.
+1. Sélectionnez **Commencer avec un canevas vide** sous la vignette **Créer vos applications**.
 
-1. Sélectionner **Créer** sous la vignette **application de canevas vide**.
+1. Cliquez sur **Taille de tablette**.
 
-    ![Capture d’écran de création à partir du vide.](../media/create-from-blank.png)
+1. Attendez que l’application vide soit générée.
 
-1. Entrer `Booking Request app` pour le **Nom de l’application**.
-
-1. Sélectionner **Tablette** pour **Format**.
-
-    ![Capture d’écran du nouveau nom de l’application.](../media/app-name-format.png)
-
-1. Sélectionnez **Créer**.
-
-1. Attendre que l’application soit générée.
-
-1. Sélectionner **Enregistrer** en haut à droite de Power Apps Studio.
-
+1. Sélectionnez **Enregistrer** en haut à droite de Power Apps Studio, entrez `Booking Request app`, puis sélectionnez **Enregistrer**.
 
 ### Tâche 1.2 : Ajouter une source de données
 
@@ -66,7 +55,6 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
     ![Capture d’écran de la sélection de la source de données.](../media/studio-data-search.png)
 
 1. Sélectionner la table **Requêtes de réservation** Microsoft Dataverse.
-
 
 ### Tâche 1.3 : Configurer l’écran principal
 
@@ -118,7 +106,6 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Sélectionner **Enregistrer** en haut à droite de Power Apps Studio.
 
-
 ### Tâche 1.4 : Ajouter une galerie
 
 1. Dans le menu de création d’application, sélectionner **Insérer (+)**.
@@ -137,6 +124,8 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Sélectionnez **Cost** pour **Body1**.
 
+   > **NOTE :** les noms de champs peuvent s’afficher en tant que noms de schémas avec un préfixe au lieu du nom d’affichage.
+
 1. Sélectionnez **Decision** pour **Subtitle2**.
 
 1. Sélectionnez **Pet Name** pour **Title2**.
@@ -149,13 +138,14 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 1. Donnez le nom `BookingRequestList` à la galerie.
 
+1. Si une boîte de dialogue contextuelle de suggestions s’affiche, sélectionnez **Annuler**.
+
 1. Définissez les propriétés de la galerie dans la barre de formule de la façon suivante :
 
    1. X = `0`
    1. Y = `80`
    1. Hauteur = `575`
    1. Largeur = `250`
-
 
 ### Tâche 1.5 : Mettre en forme le champ des devises
 
@@ -176,4 +166,3 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 1. Sélectionner **Enregistrer** en haut à droite de Power Apps Studio.
 
 1. Sélectionner le bouton **<- Précédent** en haut à gauche de la barre de commandes, puis sélectionner **Quitter** pour quitter l’application.
-

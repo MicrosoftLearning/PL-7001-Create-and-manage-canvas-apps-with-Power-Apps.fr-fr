@@ -45,12 +45,11 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Sélectionnez l’application **Demande de réservation**, sélectionnez les commandes ( **...**), puis choisissez **Modifier > Modifier dans un nouvel onglet**.
 
-
 ### Tâche 1.2 : ajouter des écrans
 
 1. Dans le menu création d’application, sélectionnez **Arborescence**.
 
-1. Dans la barre d’actions de Power Apps Studio, sélectionnez **Nouvel écran**.
+1. En haut de l’arborescence, sélectionnez **+ Nouvel écran**.
 
     ![Capture d’écran du nouvel écran.](../media/add-screen.png)
 
@@ -58,12 +57,11 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Redéfinissez le nom de l’écran sur `EditScreen`.
 
-1. Dans la barre d’actions de Power Apps Studio, sélectionnez **Nouvel écran**.
+1. En haut de l’arborescence, sélectionnez **+ Nouvel écran**.
 
 1. Sélectionnez **En-tête et pied de page**.
 
 1. Redéfinissez le nom de l’écran sur `DetailScreen`.
-
 
 ### Étape 1.3 : ajouter la navigation
 
@@ -91,14 +89,17 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
     Back()
     ```
 
+1. Renommez l’icône comme suit : `BackIconEdit`.
+
 1. Dans l’**arborescence**, sélectionnez l’icône, puis les commandes (**...**) et choisissez **Copier**.
 
 1. Développez **DetailScreen**.
 
 1. Développez **ScreenContainer**.
 
-1. Sélectionnez **HeaderContainer**, puis les commandes (**...**) et **collez**.
+1. Sélectionnez **HeaderContainer**, puis les commandes (**...**). Sélectionnez **Coller**, puis **Coller**.
 
+1. Renommez l’icône comme suit : `BackIconDetail`.
 
 ## Exercice 2 : écran Détails
 
@@ -122,7 +123,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Dans les propriétés de FormViewer, sélectionnez **Demandes de réservation** pour**Source de données**.
 
-1. Choisissez **8 sélectionnés** en regard de **Champs**.
+1. Choisissez **10 sélectionnés** en regard de **Champs**.
 
     ![Capture d’écran des champs de formulaire par défaut.](../media/add-fields-default.png)
 
@@ -212,7 +213,7 @@ Dans ce labo, vous allez utiliser des formulaires pour créer et modifier des en
 
 1. Dans les propriétés du formulaire, sélectionnez **Demandes de réservation** pour la **source de données**.
 
-1. Choisissez **8 sélectionnés** en regard de **Champs**.
+1. Choisissez **9 sélectionnés** en regard de **Champs**.
 
 1. Ajoutez ou supprimez les champs afin qu’ils soient organisés dans l’ordre suivant :
 
