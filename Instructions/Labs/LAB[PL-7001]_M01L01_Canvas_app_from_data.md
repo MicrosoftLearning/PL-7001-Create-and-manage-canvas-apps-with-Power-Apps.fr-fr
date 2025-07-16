@@ -29,7 +29,7 @@ Dans ce labo, vous allez concevoir et créer une application canevas à partir d
 
 ### Tâche 1.1 : Télécharger la feuille de calcul Excel
 
-1. Accédez à [CoffeeMachineData.xlsx](https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx).
+1. Dans un navigateur web, accédez à [CoffeeMachineData.xlsx](https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx) à l’adresse `https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx`.
 
 1. Sélectionnez le bouton de fichier **Brut** pour télécharger le classeur Excel.
 
